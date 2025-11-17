@@ -1,0 +1,202 @@
+.Experiment Name	Phoneme_VoicedVoiceless1
+.Participant Name	DFi1
+.Session ID	VY Test
+.Date	9/9/2025	2:42:25 PM
+.Resolution	1920	1080
+.OS	Windows 10 (10.0)	x86_64
+
+Participant	Participant	Session	Block	Trial	Event	Cumulative	Participant		Pressed Or	Correct	Error	Reaction
+Group	Name	ID	Name	Name	Name	Time	Response	Key	Released	Response	Code	Time	PorB
+Disfirst_inverse	DFi1	VY Test	Inverse_Practice_Instructions	Inverse_Practice_Instructions	Inverse_Practice_Instructions	78079	Button 5 (right thumb)	5	Pressed	(any response)	C	77619	
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 1	Practice_Inverse (1, bumblebee.wav)	80509	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1905	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 2	Practice_Inverse (2, canopy.wav)	82109	Button 4 (left thumb)	4	Pressed	(based on tag)	C	942	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 3	Practice_Inverse (3, cob.wav)	83568	Button 4 (left thumb)	4	Pressed	(based on tag)	E	818	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 4	Practice_Inverse (4, copy.wav)	85268	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1059	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 5	Practice_Inverse (5, crab.wav)	86808	Button 5 (right thumb)	5	Pressed	(based on tag)	C	894	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 6	Practice_Inverse (6, crimp.wav)	88358	Button 4 (left thumb)	4	Pressed	(based on tag)	C	950	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 7	Practice_Inverse (7, flop.wav)	89907	Button 5 (right thumb)	5	Pressed	(based on tag)	E	945	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 8	Practice_Inverse (8, grab.wav)	91537	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1005	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 9	Practice_Inverse (9, grub.wav)	93316	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1164	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 10	Practice_Inverse (10, hippie.wav)	94746	Button 4 (left thumb)	4	Pressed	(based on tag)	C	774	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 11	Practice_Inverse (11, lobe.wav)	96756	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1405	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 12	Practice_Inverse (12, maybe.wav)	98346	Button 4 (left thumb)	4	Pressed	(based on tag)	E	966	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 13	Practice_Inverse (13, placebo.wav)	100235	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1270	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 14	Practice_Inverse (14, pope.wav)	102985	Button 4 (left thumb)	4	Pressed	(based on tag)	C	2151	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 15	Practice_Inverse (15, ripe.wav)	104765	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1107	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 16	Practice_Inverse (16, scuba.wav)	106524	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1097	b
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 17	Practice_Inverse (17, shape.wav)	108484	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1340	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 18	Practice_Inverse (18, toupee.wav)	110063	Button 4 (left thumb)	4	Pressed	(based on tag)	C	953	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 19	Practice_Inverse (19, typo.wav)	111473	Button 4 (left thumb)	4	Pressed	(based on tag)	C	795	p
+Disfirst_inverse	DFi1	VY Test	Practice_Inverse	Practice_Inverse, 20	Practice_Inverse (20, wallaby.wav)	113153	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1042	b
+Disfirst_inverse	DFi1	VY Test	Inverse_Instructions	Inverse_Instructions	Inverse_Instructions	117822	Button 5 (right thumb)	5	Pressed	(any response)	C	4116	
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 9	dispref_inverse (9, degob.wav)	119912	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1926	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 26	dispref_inverse (26, potipe.wav)	121571	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1494	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 32	dispref_inverse (32, todupe.wav)	123391	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1670	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	dispref_inverse (18, gotepe.wav)	125211	Button 5 (right thumb)	5	Pressed	(based on tag)	E	1658	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 4	dispref_inverse (4, bikupe.wav)	127360	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1989	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 24	dispref_inverse (24, pigepe.wav)	128900	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1323	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 7	dispref_inverse (7, bugib.wav)	131130	Button 5 (right thumb)	5	Pressed	(based on tag)	C	2058	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 6	dispref_inverse (6, bogepe.wav)	132839	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1540	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 28	dispref_inverse (28, tekupe.wav)	134419	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1412	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 27	dispref_inverse (27, tekub.wav)	135869	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1238	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 3	dispref_inverse (3, bikub.wav)	137278	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1211	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	dispref_inverse (1, bidob.wav)	138478	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1054	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 10	dispref_inverse (10, degope.wav)	139948	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1319	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	dispref_inverse (20, gutope.wav)	141328	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1227	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 14	dispref_inverse (14, dogipe.wav)	142777	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1264	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 17	dispref_inverse (17, goteb.wav)	144117	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1177	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 16	dispref_inverse (16, dokupe.wav)	145697	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1426	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 21	dispref_inverse (21, pidob.wav)	147047	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1173	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 19	dispref_inverse (19, gutob.wav)	148237	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1023	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 8	dispref_inverse (8, bugipe.wav)	150206	Button 5 (right thumb)	5	Pressed	(based on tag)	E	1821	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 12	dispref_inverse (12, dikepe.wav)	152296	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1924	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 2	dispref_inverse (2, bidope.wav)	154475	Button 4 (left thumb)	4	Pressed	(based on tag)	C	2009	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 30	dispref_inverse (30, todipe.wav)	156235	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1609	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 23	dispref_inverse (23, pigeb.wav)	157535	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1142	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 13	dispref_inverse (13, dogib.wav)	159064	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1330	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 15	dispref_inverse (15, dokub.wav)	160604	Button 4 (left thumb)	4	Pressed	(based on tag)	E	1376	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 31	dispref_inverse (31, todub.wav)	163414	Button 5 (right thumb)	5	Pressed	(based on tag)	C	2603	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 29	dispref_inverse (29, todib.wav)	165453	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1829	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 11	dispref_inverse (11, dikeb.wav)	166903	Button 4 (left thumb)	4	Pressed	(based on tag)	E	1284	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 25	dispref_inverse (25, potib.wav)	168273	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1208	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 22	dispref_inverse (22, pidope.wav)	170432	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1995	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	dispref_inverse (5, bogeb.wav)	171712	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1119	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	Please take a b...	182120	Button 5 (right thumb)	5	Pressed	(any response)	C	11527	
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 32	dispref_inverse (32, todupe.wav)	184110	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1717	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 12	dispref_inverse (12, dikepe.wav)	185709	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1437	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 29	dispref_inverse (29, todib.wav)	186859	Button 5 (right thumb)	5	Pressed	(based on tag)	C	999	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 10	dispref_inverse (10, degope.wav)	188579	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1569	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 19	dispref_inverse (19, gutob.wav)	189719	Button 5 (right thumb)	5	Pressed	(based on tag)	C	987	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 13	dispref_inverse (13, dogib.wav)	191818	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1945	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 17	dispref_inverse (17, goteb.wav)	193408	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1428	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 9	dispref_inverse (9, degob.wav)	194668	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1072	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 22	dispref_inverse (22, pidope.wav)	196177	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1362	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 4	dispref_inverse (4, bikupe.wav)	197817	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1473	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 25	dispref_inverse (25, potib.wav)	199427	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1440	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	dispref_inverse (5, bogeb.wav)	200727	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1133	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 15	dispref_inverse (15, dokub.wav)	201947	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1053	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 6	dispref_inverse (6, bogepe.wav)	203466	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1350	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 7	dispref_inverse (7, bugib.wav)	204956	Button 4 (left thumb)	4	Pressed	(based on tag)	E	1293	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 8	dispref_inverse (8, bugipe.wav)	206716	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1608	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 31	dispref_inverse (31, todub.wav)	207965	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1044	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 3	dispref_inverse (3, bikub.wav)	209615	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1486	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 30	dispref_inverse (30, todipe.wav)	211165	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1389	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	dispref_inverse (20, gutope.wav)	213124	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1807	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 24	dispref_inverse (24, pigepe.wav)	214514	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1196	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	dispref_inverse (1, bidob.wav)	215654	Button 5 (right thumb)	5	Pressed	(based on tag)	C	942	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 23	dispref_inverse (23, pigeb.wav)	216904	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1069	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 27	dispref_inverse (27, tekub.wav)	218623	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1529	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 16	dispref_inverse (16, dokupe.wav)	220403	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1636	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 2	dispref_inverse (2, bidope.wav)	221843	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1292	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 11	dispref_inverse (11, dikeb.wav)	223373	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1380	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 14	dispref_inverse (14, dogipe.wav)	224862	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1290	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 21	dispref_inverse (21, pidob.wav)	226052	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1026	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 28	dispref_inverse (28, tekupe.wav)	227622	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1410	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 26	dispref_inverse (26, potipe.wav)	229481	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1659	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	dispref_inverse (18, gotepe.wav)	231071	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1438	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	Please take a b...	237360	Button 5 (right thumb)	5	Pressed	(any response)	C	7727	
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 15	dispref_inverse (15, dokub.wav)	238910	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1315	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 9	dispref_inverse (9, degob.wav)	240850	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1797	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 11	dispref_inverse (11, dikeb.wav)	242069	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1027	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 30	dispref_inverse (30, todipe.wav)	243579	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1362	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 29	dispref_inverse (29, todib.wav)	244868	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1134	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 19	dispref_inverse (19, gutob.wav)	246148	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1068	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 26	dispref_inverse (26, potipe.wav)	247678	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1354	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 17	dispref_inverse (17, goteb.wav)	248948	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1115	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 8	dispref_inverse (8, bugipe.wav)	250497	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1396	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 32	dispref_inverse (32, todupe.wav)	252227	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1576	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 4	dispref_inverse (4, bikupe.wav)	253887	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1510	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 6	dispref_inverse (6, bogepe.wav)	255607	Button 5 (right thumb)	5	Pressed	(based on tag)	E	1569	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	dispref_inverse (5, bogeb.wav)	256936	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1178	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 22	dispref_inverse (22, pidope.wav)	258506	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1417	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 28	dispref_inverse (28, tekupe.wav)	260096	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1430	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 31	dispref_inverse (31, todub.wav)	261625	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1378	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 3	dispref_inverse (3, bikub.wav)	262955	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1176	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 13	dispref_inverse (13, dogib.wav)	264545	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1434	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 25	dispref_inverse (25, potib.wav)	266614	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1916	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 14	dispref_inverse (14, dogipe.wav)	268254	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1488	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 16	dispref_inverse (16, dokupe.wav)	269784	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1378	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 10	dispref_inverse (10, degope.wav)	271373	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1428	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	dispref_inverse (18, gotepe.wav)	273393	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1863	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	dispref_inverse (20, gutope.wav)	275233	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1675	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 27	dispref_inverse (27, tekub.wav)	276542	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1146	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 2	dispref_inverse (2, bidope.wav)	278012	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1303	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 21	dispref_inverse (21, pidob.wav)	279712	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1521	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 12	dispref_inverse (12, dikepe.wav)	281781	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1909	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 7	dispref_inverse (7, bugib.wav)	283701	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1764	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 23	dispref_inverse (23, pigeb.wav)	284851	Button 5 (right thumb)	5	Pressed	(based on tag)	C	999	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 24	dispref_inverse (24, pigepe.wav)	286591	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1564	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	dispref_inverse (1, bidob.wav)	287720	Button 5 (right thumb)	5	Pressed	(based on tag)	C	979	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	Please take a b...	293869	Button 5 (right thumb)	5	Pressed	(any response)	C	7128	
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 13	dispref_inverse (13, dogib.wav)	295229	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1116	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 8	dispref_inverse (8, bugipe.wav)	296589	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1209	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 23	dispref_inverse (23, pigeb.wav)	297869	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1031	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 17	dispref_inverse (17, goteb.wav)	299128	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1110	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 15	dispref_inverse (15, dokub.wav)	300338	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1032	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 7	dispref_inverse (7, bugib.wav)	301558	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1073	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 6	dispref_inverse (6, bogepe.wav)	303078	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1366	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	dispref_inverse (1, bidob.wav)	304447	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1218	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 27	dispref_inverse (27, tekub.wav)	306017	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1416	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 3	dispref_inverse (3, bikub.wav)	307237	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1076	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 31	dispref_inverse (31, todub.wav)	308467	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1082	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 14	dispref_inverse (14, dogipe.wav)	309796	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1183	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	dispref_inverse (5, bogeb.wav)	311086	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1091	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 30	dispref_inverse (30, todipe.wav)	312556	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1321	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 16	dispref_inverse (16, dokupe.wav)	313966	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1262	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 26	dispref_inverse (26, potipe.wav)	315555	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1428	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 4	dispref_inverse (4, bikupe.wav)	316925	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1220	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 28	dispref_inverse (28, tekupe.wav)	318285	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1186	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 29	dispref_inverse (29, todib.wav)	319425	Button 5 (right thumb)	5	Pressed	(based on tag)	C	935	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 24	dispref_inverse (24, pigepe.wav)	320724	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1152	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 2	dispref_inverse (2, bidope.wav)	322374	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1406	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 11	dispref_inverse (11, dikeb.wav)	323594	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1072	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 22	dispref_inverse (22, pidope.wav)	325274	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1532	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 10	dispref_inverse (10, degope.wav)	326623	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1201	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 12	dispref_inverse (12, dikepe.wav)	328083	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1247	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 25	dispref_inverse (25, potib.wav)	329213	Button 5 (right thumb)	5	Pressed	(based on tag)	C	976	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	dispref_inverse (18, gotepe.wav)	330533	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1174	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 9	dispref_inverse (9, degob.wav)	331902	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1201	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 19	dispref_inverse (19, gutob.wav)	333062	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1011	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 32	dispref_inverse (32, todupe.wav)	334392	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1184	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 21	dispref_inverse (21, pidob.wav)	335552	Button 5 (right thumb)	5	Pressed	(based on tag)	C	963	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	dispref_inverse (20, gutope.wav)	336901	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1204	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	Please take a b...	341581	Button 5 (right thumb)	5	Pressed	(any response)	C	5884	
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 32	dispref_inverse (32, todupe.wav)	343260	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1448	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 15	dispref_inverse (15, dokub.wav)	344370	Button 5 (right thumb)	5	Pressed	(based on tag)	C	959	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 21	dispref_inverse (21, pidob.wav)	345480	Button 5 (right thumb)	5	Pressed	(based on tag)	C	961	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 25	dispref_inverse (25, potib.wav)	346750	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1121	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 16	dispref_inverse (16, dokupe.wav)	348209	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1311	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 8	dispref_inverse (8, bugipe.wav)	349979	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1624	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 31	dispref_inverse (31, todub.wav)	351159	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1030	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 13	dispref_inverse (13, dogib.wav)	352429	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1123	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 7	dispref_inverse (7, bugib.wav)	354348	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1765	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 12	dispref_inverse (12, dikepe.wav)	356028	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1534	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 30	dispref_inverse (30, todipe.wav)	358427	Button 4 (left thumb)	4	Pressed	(based on tag)	C	2245	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 18	dispref_inverse (18, gotepe.wav)	361537	Button 4 (left thumb)	4	Pressed	(based on tag)	C	2958	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 19	dispref_inverse (19, gutob.wav)	363267	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1585	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 29	dispref_inverse (29, todib.wav)	364806	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1393	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 28	dispref_inverse (28, tekupe.wav)	366536	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1585	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 10	dispref_inverse (10, degope.wav)	369585	Button 5 (right thumb)	5	Pressed	(based on tag)	E	2896	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 22	dispref_inverse (22, pidope.wav)	371325	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1586	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 14	dispref_inverse (14, dogipe.wav)	372755	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1253	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 17	dispref_inverse (17, goteb.wav)	373984	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1077	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 3	dispref_inverse (3, bikub.wav)	375904	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1765	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 20	dispref_inverse (20, gutope.wav)	377444	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1383	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 23	dispref_inverse (23, pigeb.wav)	379234	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1640	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 2	dispref_inverse (2, bidope.wav)	380733	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1355	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 6	dispref_inverse (6, bogepe.wav)	382303	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1422	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 24	dispref_inverse (24, pigepe.wav)	383753	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1298	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 27	dispref_inverse (27, tekub.wav)	384833	Button 5 (right thumb)	5	Pressed	(based on tag)	C	932	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 4	dispref_inverse (4, bikupe.wav)	386472	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1482	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 11	dispref_inverse (11, dikeb.wav)	387562	Button 5 (right thumb)	5	Pressed	(based on tag)	C	942	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 9	dispref_inverse (9, degob.wav)	389272	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1563	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 1	dispref_inverse (1, bidob.wav)	390541	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1116	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 26	dispref_inverse (26, potipe.wav)	392001	Button 4 (left thumb)	4	Pressed	(based on tag)	C	1311	p
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	dispref_inverse (5, bogeb.wav)	393291	Button 5 (right thumb)	5	Pressed	(based on tag)	C	1142	b
+Disfirst_inverse	DFi1	VY Test	Dispref_inverse	dispref_inverse, 5	Please take a b...	397780	Button 5 (right thumb)	5	Pressed	(any response)	C	5631	
+Disfirst_inverse	DFi1	VY Test	Pref_Inverse	pref_inverse1, 27	Please take a b...	465458	Button 5 (right thumb)	5	Pressed	(any response)	C	12341	
+Disfirst_inverse	DFi1	VY Test	Pref_Inverse	pref_inverse1, 25	Please take a b...	517428	Button 4 (left thumb)	4	Pressed	(any response)	C	6718	
+Disfirst_inverse	DFi1	VY Test	Pref_Inverse	pref_inverse1, 21	Please take a b...	567619	Button 4 (left thumb)	4	Pressed	(any response)	C	6585	
+Disfirst_inverse	DFi1	VY Test	Pref_Inverse	pref_inverse1, 28	Please take a b...	622929	Button 5 (right thumb)	5	Pressed	(any response)	C	7182	
+Disfirst_inverse	DFi1	VY Test	Pref_Inverse	pref_inverse1, 23	Please take a b...	675869	Button 4 (left thumb)	4	Pressed	(any response)	C	8995	
+Disfirst_inverse	DFi1	VY Test	Debreifing	Debreifing	Debreifing	722191	Button 5 (right thumb)	5	Pressed	(any response)	C	46265	
