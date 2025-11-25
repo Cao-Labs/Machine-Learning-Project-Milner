@@ -1,1 +1,1 @@
-(('Participant', 'Group'), ('Participant', 'Name'), ('Session', 'ID'), ('Block', 'Name'), ('Trial', 'Name'), ('Event', 'Name'), ('Cumulative', 'Time'), ('Participant', 'Response'), ('', 'Key'), ('Pressed Or', 'Released'), ('Correct', 'Response'), ('Error', 'Code'), ('Reaction', 'Time'))
+((Participant Group), (Participant Name), (Session ID), (Block Name), (Trial Name), (Event Name), (Cumulative Time), (Participant Response), ( Key), (Pressed Or Released), (Correct Response), (Error Code), (Reaction Time))
