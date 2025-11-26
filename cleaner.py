@@ -16,6 +16,14 @@ def write_file(filename: str, text: str) -> None:
         file.write(text)
 
 class DataPoint:
+    IGNTYPES: list[str] = [
+        "instructions",
+        "practice",
+        "debreifing",
+        "practice_instructions",
+        "inverse_practice_instructions",
+        "inverse_instructions"
+    ]
     def __init__(self,
             participant_group: str = None,
             participant_name: str = None,
@@ -29,7 +37,7 @@ class DataPoint:
             pressed_or_released: str = None,
             correct_response: str = None,
             error_code: str = None,
-            reaction_time: str = None,
+            reaction_time: int = None,
             p_or_b: str = None) -> None:
         self.participant_group: str = participant_group
         self.participant_name: str = participant_name
@@ -49,27 +57,7 @@ class DataPoint:
     def from_str(text: str) -> DataPoint:
         splits: list[str] = text.split("\t")
 
-        if len(splits) < 14:
-            return None
-
-        block_name: str = splits[3].strip().lower()
-
-        if block_name == "instructions":
-            return None
-
-        if block_name == "practice":
-            return None
-
-        if block_name == "debreifing":
-            return None
-
-        if block_name == "practice_instructions":
-            return None
-        
-        if block_name == "inverse_practice_instructions":
-            return None
-
-        if block_name == "inverse_instructions":
+        if len(splits) < 14 or splits[3].strip().lower() in DataPoint.IGNTYPES:
             return None
 
         return DataPoint(*splits)
@@ -145,7 +133,7 @@ class DataPoint:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print(f"Please input at lease one file or folder like so: python3.14 {__file__} <folder/file...>")
+        print(f"Please input at least one file or folder. ex: python3.14 {__file__} <folder/file...>")
         quit()
 
     dataset: list[DataPoint] = []
