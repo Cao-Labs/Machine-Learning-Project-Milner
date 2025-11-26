@@ -24,6 +24,7 @@ class DataPoint:
         "inverse_practice_instructions",
         "inverse_instructions"
     ]
+
     def __init__(self,
             participant_group: str = None,
             participant_name: str = None,
@@ -86,12 +87,11 @@ class DataPoint:
     def generate_point(self, trial_num: int) -> str:
         match: re.Match = re.search(r"([^\s]*)\.wav", self.event_name)
 
-        stimuli: str = " "
+        cons: str = self.p_or_b.lower()
+        stimuli: str = ""
         if match is not None:
             stimuli: str = match.group(1)
-
-        cons: str = self.p_or_b.lower()
-
+        
         return ",".join([
             str(trial_num),
             "",
@@ -114,22 +114,15 @@ class DataPoint:
             "Voicing" if cons == "b" else "Devoicing",
             str(trial_num + 23),
             cons,
-            "Final" if stimuli[-1] == cons else "NonFinal",
+            "Final" if stimuli.endswith(cons) else "NonFinal",
             "",
             ""
         ])
 
     def generate_csv(dataset: list[DataPoint]) -> str:
-        lines: list[str] = [
+        return "\n".join([
             ",expt_id,Group,group_id,invRT,Trial,participant_id,response_correct,response_name,response_rt,stimuli_presented,trial_template,trial_duration,PartBlocks,AllBlocks,Pattern,trial_num,PB,Final,Part,Correct"
-        ]
-
-        i: int = 1
-        for data_point in dataset:
-            lines.append(data_point.generate_point(i))
-            i += 1
-
-        return "\n".join(lines)
+        ] + [dataset[i].generate_point(i + 1) for i in range(len(dataset))])
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
