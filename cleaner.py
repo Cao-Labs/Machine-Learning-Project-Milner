@@ -1,6 +1,8 @@
 # This script will take a folder of files as input and output a combined cleaned csv file.
 
-import sys, os
+import sys
+import os
+import re
 
 def dict_to_str(value: dict) -> str:
     return ";".join([f'{k}:{v}' for k, v in value.items()])
@@ -93,18 +95,40 @@ class DataPoint:
 
         return dataset
 
-    def generate_point(self) -> str:
+    def generate_point(self, trial_num: int) -> str:
+        match: re.Match = re.search(r"([^\s]*)\.wav", self.event_name)
+
+        stimuli: str = " "
+        if match is not None:
+            stimuli: str = match.group(1)
+
+        cons: str = self.p_or_b.lower()
+
         return ",".join([
-            "",
+            str(trial_num),
+            "#EXPTID",
             "DispreferenceFirst",
             {
                 "disfirst_reg": "dispreferenceFirst",
                 "disfirst_inverse": "dispreferenceFirst_inverse"
             }[self.participant_group.lower()],
             str(-1000/self.reaction_time),
-            "",
-            "",
-            self.correct_response
+            "#TRIAL",
+            "#PARTICIPANTID",
+            self.correct_response,
+            "TestResponseTarget_p1_inverse",
+            str(self.reaction_time),
+            stimuli,
+            "#TRIALTEMPLATE",
+            self.cumulative_time,
+            "#PARTBLOCKS",
+            "#ALLBLOCKS",
+            "Voicing" if cons == "b" else "Devoicing",
+            str(trial_num + 23),
+            cons,
+            "Final" if stimuli[-1] == cons else "NonFinal",
+            "#PART",
+            "#CORRECT"
         ])
 
     def generate_csv(dataset: list[DataPoint]) -> str:
@@ -114,13 +138,14 @@ class DataPoint:
 
         i: int = 1
         for data_point in dataset:
-            lines.append(f"{i}," + data_point.generate_point())
+            lines.append(data_point.generate_point(i))
             i += 1
 
         return "\n".join(lines)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
+        print(f"Please input at lease one file or folder like so: python3.14 {__file__} <folder/file...>")
         quit()
 
     dataset: list[DataPoint] = []
