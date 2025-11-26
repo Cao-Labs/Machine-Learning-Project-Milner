@@ -94,29 +94,29 @@ class DataPoint:
 
         return ",".join([
             str(trial_num),
-            "#EXPTID",
+            "",
             "DispreferenceFirst",
             {
                 "disfirst_reg": "dispreferenceFirst",
                 "disfirst_inverse": "dispreferenceFirst_inverse"
             }[self.participant_group.lower()],
             str(-1000/self.reaction_time),
-            "#TRIAL",
-            "#PARTICIPANTID",
-            self.correct_response,
-            "TestResponseTarget_p1_inverse",
+            "",
+            "",
+            "",
+            "",
             str(self.reaction_time),
             stimuli,
-            "#TRIALTEMPLATE",
+            "",
             self.cumulative_time,
-            "#PARTBLOCKS",
-            "#ALLBLOCKS",
+            "",
+            "",
             "Voicing" if cons == "b" else "Devoicing",
             str(trial_num + 23),
             cons,
             "Final" if stimuli[-1] == cons else "NonFinal",
-            "#PART",
-            "#CORRECT"
+            "",
+            ""
         ])
 
     def generate_csv(dataset: list[DataPoint]) -> str:
