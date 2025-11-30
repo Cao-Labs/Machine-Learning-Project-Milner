@@ -1,4 +1,3 @@
 *.swp
 *.out
-svm_*
 __pycache__/
