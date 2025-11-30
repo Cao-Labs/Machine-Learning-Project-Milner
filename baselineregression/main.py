@@ -1,3 +1,7 @@
+# Zachary Milner
+# 11/30/25
+# This file uses a DummyRegressor from sklearn as baseline regression to predict the response time from whether the person was given p or b and whether they were given a vowel after or not.
+
 import matplotlib.pyplot as plt
 from sklearn.dummy import DummyRegressor
 

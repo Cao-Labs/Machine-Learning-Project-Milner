@@ -1,3 +1,7 @@
+# Zachary Milner
+# 11/30/25
+# This file uses a support vector machine to predict the response time based off of p/b given and whether there was a trailing vowel.
+
 import matplotlib.pyplot as plt
 from sklearn import svm
 
@@ -31,7 +35,7 @@ text: str = read_file("../data.csv")
 data, labels = load_data(text)
 train_data, train_labels, test_data, test_labels = split_data(data, labels)
 
-clf = svm.SVC()
+clf = svm.SVR()
 clf.fit(train_data, train_labels)
 test_predict = clf.predict(test_data)
 

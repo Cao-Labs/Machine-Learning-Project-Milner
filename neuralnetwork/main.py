@@ -1,3 +1,7 @@
+# Zachary Milner
+# 11/29/25
+# This file uses a multilayer perceptron regressor to predict the response time based off of p/b given and whether there was a trailing vowel.
+
 import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 
