@@ -1,5 +1,5 @@
 # Zachary Milner
-# 11/29/25
+# 11/30/25
 # This file uses a multilayer perceptron regressor to predict the response time based off of p/b given and whether there was a trailing vowel.
 
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ def split_data(data: list[list[float]], labels: list[float], pc_train: float = 0
     sp_point: int = int(len(data) * pc_train)
     return data[:sp_point], labels[:sp_point], data[sp_point:], labels[sp_point:]
 
-text: str = read_file("../data.csv")
+text: str = read_file("../cleaned.csv")
 data, labels = load_data(text)
 train_data, train_labels, test_data, test_labels = split_data(data, labels)
 

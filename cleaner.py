@@ -61,7 +61,7 @@ class DataPoint:
         self.reaction_time: int = int(reaction_time)
         self.p_or_b: str = p_or_b
 
-    def from_str(text: str) -> DataPoint:
+    def from_str(text: str):
         """Create a new DataPoint from a string with elements separated by tab characters."""
         splits: list[str] = text.split("\t")
 
@@ -73,9 +73,9 @@ class DataPoint:
     def __repr__(self) -> str:
         return dict_to_str(self.__dict__)
 
-    def create_dataset(path: str) -> list[DataPoint]:
+    def create_dataset(path: str) -> list:
         """Create a list of DataPoints a file or directory. If a file path is given, the DataPoints will be created from the file's content. If a directory is given, the DataPoints will be created from every file and directory within the directory. This function is recursive, and will follow all folders."""
-        dataset: list[DataPoint] = []
+        dataset: list = []
 
         if os.path.isdir(path):
             for member in os.listdir(path):
@@ -124,7 +124,7 @@ class DataPoint:
             "", ""
         ])
 
-    def generate_csv(dataset: list[DataPoint]) -> str:
+    def generate_csv(dataset: list) -> str:
         """Generate a CSV file from a list of DataPoints."""
         return "\n".join(
             [",expt_id,Group,group_id,invRT,Trial,participant_id,response_correct,response_name,response_rt,stimuli_presented,trial_template,trial_duration,PartBlocks,AllBlocks,Pattern,trial_num,PB,Final,Part,Correct"] + [dataset[i].generate_point(i + 1) for i in range(len(dataset))])
@@ -139,4 +139,4 @@ if __name__ == "__main__":
     for arg in sys.argv[1:]:
         dataset += DataPoint.create_dataset(arg)
 
-    write_file("data.csv", DataPoint.generate_csv(dataset))
+    write_file("cleaned.csv", DataPoint.generate_csv(dataset))
