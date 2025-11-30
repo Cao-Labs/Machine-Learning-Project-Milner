@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
-from sklearn.datasets import make_blobs
 from sklearn.neural_network import MLPRegressor
-from sklearn.metrics import accuracy_score
 
 def read_file(filename: str) -> str:
     with open(filename) as file:
@@ -36,8 +34,6 @@ clf = MLPRegressor(solver='lbfgs',
                     random_state=1)
 
 clf.fit(train_data, train_labels)
-
-train_predict = clf.predict(train_data)
 test_predict = clf.predict(test_data)
 
 fig = plt.figure()
