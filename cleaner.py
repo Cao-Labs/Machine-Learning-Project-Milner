@@ -139,4 +139,4 @@ if __name__ == "__main__":
     for arg in sys.argv[1:]:
         dataset += DataPoint.create_dataset(arg)
 
-    write_file("lclean.csv", DataPoint.generate_csv(dataset))
+    write_file("data.csv", DataPoint.generate_csv(dataset))

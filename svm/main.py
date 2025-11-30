@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from sklearn.neural_network import MLPRegressor
+from sklearn import svm
 
 def read_file(filename: str) -> str:
     """Read a file as a string."""
@@ -31,11 +31,7 @@ text: str = read_file("../data.csv")
 data, labels = load_data(text)
 train_data, train_labels, test_data, test_labels = split_data(data, labels)
 
-clf = MLPRegressor(solver='lbfgs',
-                    alpha=1e-5,
-                    hidden_layer_sizes=(3,2),
-                    random_state=1)
-
+clf = svm.SVC()
 clf.fit(train_data, train_labels)
 test_predict = clf.predict(test_data)
 
