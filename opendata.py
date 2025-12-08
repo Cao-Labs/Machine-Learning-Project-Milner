@@ -1,3 +1,7 @@
+# Zachary Milner
+# 12/7/25
+# This file contains various functions used by multiple of the machine learning methods.
+
 def read_file(filename: str) -> str:
     """Read a file as a string."""
     with open(filename) as file:
