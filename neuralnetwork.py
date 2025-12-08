@@ -19,6 +19,13 @@ clf = MLPRegressor(solver='adam',
 clf.fit(train_data, train_labels)
 test_predict = clf.predict(test_data)
 
+res_dict: dict[float, tuple[int, int]] = {}
+for x in zip(test_data, test_predict):
+    res_dict[x[1]] = x[0]
+
+print("Results in the format 'prediction:[is_b,is_final]'")
+print(res_dict)
+
 fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
 ax.scatter([x[0] for x in test_data], [x[1] for x in test_data], test_predict)

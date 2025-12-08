@@ -14,6 +14,8 @@ clf = DummyRegressor(strategy="mean")
 clf.fit(train_data, train_labels)
 test_predict = clf.predict(test_data)
 
+print(f"Mean = {test_predict[0]}")
+
 fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
 ax.scatter([x[0] for x in test_data], [x[1] for x in test_data], test_predict)
