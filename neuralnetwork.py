@@ -5,6 +5,7 @@
 from opendata import *
 import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
+from sklearn.metrics import mean_squared_error
 
 train_data, train_labels, test_data, test_labels = load_all("cleanTraining.csv", "cleanTesting.csv")
 
@@ -25,6 +26,9 @@ for x in zip(test_data, test_predict):
 
 print("Results in the format 'prediction:[is_b,is_final]'")
 print(res_dict)
+print(f"Network shape: {clf.coefs_}")
+print(f"R^2 = {clf.score(test_data, test_labels)}")
+print(f"Mean Squared Error = {mean_squared_error(test_labels, test_predict)}")
 
 fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
