@@ -2,6 +2,7 @@
 # 11/25/25
 # This file cleans the given data for use in machine learning. The cleaned data is given in CSV form.
 
+import random
 import sys
 import os
 import re
@@ -124,19 +125,30 @@ class DataPoint:
             "", ""
         ])
 
-    def generate_csv(dataset: list) -> str:
+    HEADER: str = ",expt_id,Group,group_id,invRT,Trial,participant_id,response_correct,response_name,response_rt,stimuli_presented,trial_template,trial_duration,PartBlocks,AllBlocks,Pattern,trial_num,PB,Final,Part,Correct"
+
+    def generate_csv(dataset: list, ptraining: float) -> tuple[str, str]:
         """Generate a CSV file from a list of DataPoints."""
-        return "\n".join(
-            [",expt_id,Group,group_id,invRT,Trial,participant_id,response_correct,response_name,response_rt,stimuli_presented,trial_template,trial_duration,PartBlocks,AllBlocks,Pattern,trial_num,PB,Final,Part,Correct"] + [dataset[i].generate_point(i + 1) for i in range(len(dataset))])
+        generated: list[str] = [dataset[i].generate_point(i+1) for i in range(len(dataset))]
+        random.shuffle(generated)
+        split_point: int = int(len(generated) * ptraining)
+        return [
+            "\n".join([DataPoint.HEADER] + generated[:split_point]),
+            "\n".join([DataPoint.HEADER] + generated[split_point:])
+        ]
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print(f"Please input at least one file or folder. ex: python3.14 {__file__} <folder/file...>")
+    if len(sys.argv) < 4:
+        print(f"Please input in the format: python3 {__file__} <random seed> <portion training, eg. 0.7> <folder/file...>")
         quit()
 
     dataset: list[DataPoint] = []
 
-    for arg in sys.argv[1:]:
+    random.seed(float(sys.argv[1]))
+
+    for arg in sys.argv[3:]:
         dataset += DataPoint.create_dataset(arg)
 
-    write_file("cleaned.csv", DataPoint.generate_csv(dataset))
+    training_csv, testing_csv = DataPoint.generate_csv(dataset, float(sys.argv[2]))
+    write_file("cleanTraining.csv", training_csv)
+    write_file("cleanTesting.csv", testing_csv)
